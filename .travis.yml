@@ -15,4 +15,3 @@ matrix:
   fast_finish: true
 install: true
 script: ci/unit/docker-test.sh
-before_install: gem install bundler -v '< 2'
